@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .primary-btn {
+        @apply bg-secondary-1 text-white rounded-md px-8 py-2.5 rounded-tl-3xl rounded-br-3xl font-semibold cursor-pointer shadow-lg
+    }
+
+    .secondary-btn {
+        @apply bg-white text-secondary-1 rounded-md px-8 py-2.5 rounded-tl-3xl rounded-br-3xl border-2 border-secondary-1 font-semibold cursor-pointer shadow-lg
+    }
+
+    .heading {
+        @apply text-[80px] leading-[1]
+    }
+
+    .about-banner {
+        @apply bg-about-banner w-full h-full bg-cover
+    }
+
+    .service-banner {
+        @apply bg-service-banner w-full h-full bg-cover
+    }
+
+    .gallery-banner {
+        @apply bg-gallery-banner w-full h-full bg-cover
+    }
+}
+
+.heading {
+    font-weight: 600;
+}
