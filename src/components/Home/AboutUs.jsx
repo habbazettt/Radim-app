@@ -12,34 +12,34 @@ const About = () => {
     }, [])
     const slides = [
         {
-            url: '/src/assets/gallery/gallery-1.jpg'
+            url: '/gallery/gallery-1.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-2.jpg'
+            url: '/gallery/gallery-2.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-3.jpg'
+            url: '/gallery/gallery-3.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-4.jpg'
+            url: '/gallery/gallery-4.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-5.jpg'
+            url: '/gallery/gallery-5.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-6.jpg'
+            url: '/gallery/gallery-6.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-7.jpg'
+            url: '/gallery/gallery-7.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-8.jpg'
+            url: '/gallery/gallery-8.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-9.jpg'
+            url: '/gallery/gallery-9.jpg'
         },
         {
-            url: '/src/assets/gallery/gallery-10.jpg'
+            url: '/gallery/gallery-10.jpg'
         }
     ]
 
