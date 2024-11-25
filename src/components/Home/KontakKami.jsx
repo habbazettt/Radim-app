@@ -4,6 +4,7 @@ import { CgMail } from "react-icons/cg"
 import { FaArrowRight, FaInstagram } from "react-icons/fa"
 import { FiPhone } from "react-icons/fi"
 import { LuFacebook } from "react-icons/lu"
+import { Link } from "react-router-dom"
 
 const KontakKami = () => {
     useEffect(() => {
@@ -20,29 +21,36 @@ const KontakKami = () => {
                     data-aos='fade-right' data-aos-duration='1500' data-aos-delay='400'
                 />
                 <div className="flex flex-col gap-8">
+                    {/* Email */}
                     <div className="flex items-center gap-3" data-aos='fade-left' data-aos-duration='1500' data-aos-delay='600'>
                         <div className="flex justify-center items-center rounded-md bg-secondary-1 w-12 h-12">
                             <CgMail className="text-secondary-3 w-8 h-8" />
                         </div>
-                        <h1>test@gmail.com</h1>
+                        <h1>gemilangradimutama@gmail.com</h1>
                     </div>
+
+                    {/* Phone */}
                     <div className="flex items-center gap-3" data-aos='fade-left' data-aos-duration='1500' data-aos-delay='800'>
                         <div className="flex justify-center items-center rounded-md bg-secondary-1 w-12 h-12">
                             <FiPhone className="text-secondary-3 w-7 h-7" />
                         </div>
-                        <h1>test@gmail.com</h1>
+                        <h1>+62 858-6449-0690</h1>
                     </div>
+
+                    {/* Instagram */}
                     <div className="flex items-center gap-3" data-aos='fade-left' data-aos-duration='1500' data-aos-delay='1000'>
                         <div className="flex justify-center items-center rounded-md bg-secondary-1 w-12 h-12">
                             <FaInstagram className="text-secondary-3 w-7 h-7" />
                         </div>
-                        <h1>test@gmail.com</h1>
+                        <h1>gemilangradimutama</h1>
                     </div>
+
+                    {/* Facebook */}
                     <div className="flex items-center gap-3" data-aos='fade-left' data-aos-duration='1500' data-aos-delay='1200'>
                         <div className="flex justify-center items-center rounded-md bg-secondary-1 w-12 h-12">
                             <LuFacebook className="text-secondary-3 w-7 h-7" />
                         </div>
-                        <h1>test@gmail.com</h1>
+                        <h1>Gemilang Radim Utama</h1>
                     </div>
                 </div>
             </div>
@@ -50,10 +58,14 @@ const KontakKami = () => {
                 <h1 className="font-bold text-3xl font-montserrat text-primary">PT. Gemilang Radim Utama</h1>
                 <p className="font-poppins font-light text-lg max-w-4xl">Jl. Simpang Solokan Jeruk Ranca Kusamba No.52, Bojongemas, Kec. Solokanjeruk, Kabupaten Bandung, Jawa Barat 40376</p>
                 <div className="flex justify-center xl:justify-start">
-                    <button href="" className="secondary-btn flex justify-center items-center gap-3.5">
+                    <Link
+                        to={'https://maps.app.goo.gl/7xjKV69Mxcm4sz1V6'}
+                        target="_blank"
+                        className="secondary-btn flex justify-center items-center gap-3.5"
+                    >
                         Lihat Peta
                         <FaArrowRight />
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

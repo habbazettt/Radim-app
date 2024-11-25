@@ -21,7 +21,16 @@ export default {
         'about-banner': 'url("/about-banner-back.png")',
         'service-banner': 'url("/service-banner-back.png")',
         'gallery-banner': 'url("/gallery-banner-back.png")',
-      }
+      },
+      animation: {
+        "loop-scroll": "loop-scroll 30s linear infinite",
+      },
+      keyframes: {
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
     },
   },
   plugins: [require('tailwindcss-motion')],

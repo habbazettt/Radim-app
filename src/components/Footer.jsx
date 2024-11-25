@@ -1,8 +1,9 @@
 import { CgMail } from "react-icons/cg"
-import { FaInstagram } from "react-icons/fa"
+import { FaArrowUp, FaInstagram } from "react-icons/fa"
 import { FiPhone } from "react-icons/fi"
 import { LuFacebook } from "react-icons/lu"
 import { Link } from 'react-router-dom'
+import ScrollToTop from "react-scroll-to-top"
 
 const navLinks = [
     {
@@ -30,6 +31,7 @@ const navLinks = [
 const Footer = () => {
     return (
         <div className='bg-primary pt-10'>
+            <ScrollToTop smooth className='flex justify-center items-center' component={<FaArrowUp className='text-black' />} />
             <div className='max-w-[1300px] mx-auto py-12 px-4 grid grid-cols-1 my-auto lg:grid-cols-3 gap-10 text-white justify-between'>
                 <div className='gap-5'>
                     <img
@@ -62,16 +64,16 @@ const Footer = () => {
                     <div className='flex flex-col items-start'>
                         <div className='flex justify-between md:w-[75%] cursor-pointer gap-7'>
                             <div className='p-3 bg-secondary-1 border-secondary-3 border hover:bg-transparent hover:border-secondary-3 duration-300 ease-in rounded-lg'>
-                                <a href='https://www.instagram.com/mahadtahfidz.uinbdg_/'><CgMail size={26} /></a>
+                                <a href='mailto:gemilangradimutama@gmail.com'><CgMail size={26} /></a>
                             </div>
                             <div className='p-3 bg-secondary-1 border-secondary-3 border hover:bg-transparent hover:border-secondary-3 duration-300 ease-in rounded-lg'>
-                                <a href='https://www.instagram.com/mahadtahfidz.uinbdg_/'><FiPhone size={26} /></a>
+                                <a href='https://wa.me/6285864490690' target="_blank"><FiPhone size={26} /></a>
                             </div>
                             <div className='p-3 bg-secondary-1 border-secondary-3 border hover:bg-transparent hover:border-secondary-3 duration-300 ease-in rounded-lg'>
-                                <a href='https://www.instagram.com/mahadtahfidz.uinbdg_/'><FaInstagram size={26} /></a>
+                                <a href='https://www.instagram.com/gemilangradimutama/' target="_blank"><FaInstagram size={26} /></a>
                             </div>
                             <div className='p-3 bg-secondary-1 border-secondary-3 border hover:bg-transparent hover:border-secondary-3 duration-300 ease-in rounded-lg'>
-                                <a href='https://www.instagram.com/mahadtahfidz.uinbdg_/'><LuFacebook size={26} /></a>
+                                <a href='https://www.facebook.com/gemilangradimutama/' target="_blank"><LuFacebook size={26} /></a>
                             </div>
                         </div>
                     </div>
@@ -83,7 +85,7 @@ const Footer = () => {
                 <h1>PT. Gemilang Radim Utama</h1>
             </div>
 
-        </div >
+        </div>
     )
 }
 

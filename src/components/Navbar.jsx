@@ -28,13 +28,12 @@ const Navbar = () => {
                                 <li className='text-primary px-3 py-2 duration-200 ease-in hover:bg-secondary-1 hover:text-white rounded-md'><Link to='/about'>About Us</Link></li>
                                 <li className='text-primary px-3 py-2 duration-200 ease-in hover:bg-secondary-1 hover:text-white rounded-md'><Link to='/services'>Our Services</Link></li>
                                 <li className='text-primary px-3 py-2 duration-200 ease-in hover:bg-secondary-1 hover:text-white rounded-md'><Link to='/gallery'>Gallery</Link></li>
-                                <li className='text-primary px-3 py-2 duration-200 ease-in hover:bg-secondary-1 hover:text-white rounded-md'><Link to='/'>Contact</Link></li>
                             </ul>
                         </div>
                     </div>
 
                     <div className='hidden lg:block'>
-                        <a href="" className='primary-btn'>Free Consultation</a>
+                        <a href='https://wa.me/6285864490690' target='_blank' className='primary-btn'>Free Consultation</a>
                     </div>
 
                     {/* Hamburger */}
@@ -58,7 +57,6 @@ const Navbar = () => {
                                 <li className='text-primary px-3 py-2 duration-200 ease-in hover:bg-primary hover:text-white rounded-md'><Link to='/about'>About Us</Link></li>
                                 <li className='text-primary px-3 py-2 duration-200 ease-in hover:bg-primary hover:text-white rounded-md'><Link to='/services'>Our Services</Link></li>
                                 <li className='text-primary px-3 py-2 duration-200 ease-in hover:bg-primary hover:text-white rounded-md'><Link to='/gallery'>Gallery</Link></li>
-                                <li className='text-primary px-3 py-2 duration-200 ease-in hover:bg-primary hover:text-white rounded-md'><Link to='/'>Contact</Link></li>
                             </ul>
                         </div>
                     </div>

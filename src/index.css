@@ -30,6 +30,12 @@
     }
 }
 
+@layer utilities {
+    .paused {
+        animation-play-state: paused;
+    }
+}
+
 .heading {
     font-weight: 600;
 }
