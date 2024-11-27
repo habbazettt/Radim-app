@@ -22,7 +22,7 @@ const KontakKami = () => {
                 />
                 <div className="flex flex-col gap-8">
                     {/* Email */}
-                    <div className="flex items-center gap-3" data-aos='fade-left' data-aos-duration='1500' data-aos-delay='600'>
+                    <div className="flex items-center gap-3" data-aos='fade-right' data-aos-duration='1500' data-aos-delay='600'>
                         <div className="flex justify-center items-center rounded-md bg-secondary-1 w-12 h-12">
                             <CgMail className="text-secondary-3 w-8 h-8" />
                         </div>
@@ -30,7 +30,7 @@ const KontakKami = () => {
                     </div>
 
                     {/* Phone */}
-                    <div className="flex items-center gap-3" data-aos='fade-left' data-aos-duration='1500' data-aos-delay='800'>
+                    <div className="flex items-center gap-3" data-aos='fade-right' data-aos-duration='1500' data-aos-delay='800'>
                         <div className="flex justify-center items-center rounded-md bg-secondary-1 w-12 h-12">
                             <FiPhone className="text-secondary-3 w-7 h-7" />
                         </div>
@@ -38,7 +38,7 @@ const KontakKami = () => {
                     </div>
 
                     {/* Instagram */}
-                    <div className="flex items-center gap-3" data-aos='fade-left' data-aos-duration='1500' data-aos-delay='1000'>
+                    <div className="flex items-center gap-3" data-aos='fade-right' data-aos-duration='1500' data-aos-delay='1000'>
                         <div className="flex justify-center items-center rounded-md bg-secondary-1 w-12 h-12">
                             <FaInstagram className="text-secondary-3 w-7 h-7" />
                         </div>
@@ -46,7 +46,7 @@ const KontakKami = () => {
                     </div>
 
                     {/* Facebook */}
-                    <div className="flex items-center gap-3" data-aos='fade-left' data-aos-duration='1500' data-aos-delay='1200'>
+                    <div className="flex items-center gap-3" data-aos='fade-right' data-aos-duration='1500' data-aos-delay='1200'>
                         <div className="flex justify-center items-center rounded-md bg-secondary-1 w-12 h-12">
                             <LuFacebook className="text-secondary-3 w-7 h-7" />
                         </div>
@@ -54,7 +54,7 @@ const KontakKami = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col gap-3 max-w-[650px] xl:max-w-full mx-auto text-center xl:text-left" data-aos='fade-up' data-aos-duration='1500' data-aos-delay='600'>
+            <div className="flex flex-col gap-3 max-w-[650px] xl:max-w-full mx-auto text-center xl:text-left" data-aos='fade-right' data-aos-duration='1500' data-aos-delay='600'>
                 <h1 className="font-bold text-3xl font-montserrat text-primary">PT. Gemilang Radim Utama</h1>
                 <p className="font-poppins font-light text-lg max-w-4xl">Jl. Simpang Solokan Jeruk Ranca Kusamba No.52, Bojongemas, Kec. Solokanjeruk, Kabupaten Bandung, Jawa Barat 40376</p>
                 <div className="flex justify-center xl:justify-start">
