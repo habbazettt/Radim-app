@@ -5,7 +5,7 @@ const PerbaikanModal = ({ open, onClose }) => {
     return (
         <div
             onClick={onClose}
-            className={`fixed inset-0 flex justify-center items-center transition-colors ${open ? "visible bg-primary/70" : "invisible"}`}
+            className={`fixed z-50 inset-0 flex justify-center items-center transition-colors ${open ? "visible bg-primary/70" : "invisible"}`}
         >
             <div className="w-[600px] mx-auto p-8">
                 <div
